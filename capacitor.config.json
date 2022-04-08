@@ -1,0 +1,6 @@
+{
+  "appId": "io.io.SimonTutAppVideo",
+  "appName": "movieApp2",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
