@@ -23,7 +23,7 @@ export class MovieDetailsPage implements OnInit {
       console.log(res);
       this.movie = res;
       this.movieDetailImageUrl = this.imageBaseUrl + '/w400' + this.movie.poster_path;
-      console.log('Bite ->  ' ,this.movieDetailImageUrl);
+      console.log(this.movie.release_date);
     });
 
   }
@@ -33,6 +33,10 @@ export class MovieDetailsPage implements OnInit {
   }
   openImageUrl() {
     window.open(this.movieDetailImageUrl);
+  }
+
+  async getData(){
+
   }
 
 
